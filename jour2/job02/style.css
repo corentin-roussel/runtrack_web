@@ -1,0 +1,20 @@
+h1 {
+    font-size: 3rem;
+}
+
+.pargraph {
+    font-style: italic;
+}
+
+#title {
+    color: blue;
+}
+
+h1:hover {
+    background-color: deeppink;
+}
+
+p[class="pargraph"] {
+    color: green;
+}
+
