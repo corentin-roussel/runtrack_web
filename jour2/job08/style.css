@@ -1,0 +1,38 @@
+.sun {
+    width: 6rem;
+    height: 2rem;
+}
+
+.moon {
+    width: 6rem;
+    height: 2rem;
+}
+
+.tree {
+    width: 6rem;
+    height: 2rem;
+}
+
+.sun::before {
+    content: "☀️";
+}
+
+.moon::before {
+ content: "🌕";
+}
+
+.tree::before {
+    content: "🌳";
+}
+
+.sun::after {
+    content: "☀️";
+}
+
+.moon::after {
+    content: "🌕";
+}
+
+.tree::after {
+    content: "🌳";
+}
