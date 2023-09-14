@@ -1,0 +1,27 @@
+button {
+    margin: 5rem;
+    padding: 1rem 5rem;
+    border: 1px solid deeppink;
+}
+
+h1 {
+    margin: 50%;
+    padding: 10%;
+}
+
+p  {
+    margin: 20%;
+    padding: 1rem;
+}
+
+p::before {
+    content:"➡️"
+}
+
+button::before {
+    content: "☀️";
+}
+
+button::after {
+    content: "☀️";
+}
